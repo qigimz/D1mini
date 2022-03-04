@@ -1,7 +1,10 @@
 import network
 sta_if = network.WLAN(network.STA_IF)
 ap_if = network.WLAN(network.AP_IF)
-sta_if.connect('<your ESSID>', '<your password>')
+
+your_ESSID ="ctxx"
+your_password ="CTXX2021"
+sta_if.connect(your ESSID, your password)
  
  n = 0
  while not sta_if.isconnected():
